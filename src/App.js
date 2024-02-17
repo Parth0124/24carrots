@@ -5,10 +5,12 @@ import Crousal from './components/Corousel';
 import Page3 from './components/Page3';
 import Page4 from './components/Page4';
 import Crousal2 from './components/Corousel2';
-import Page5 from './components/Page5';
 import Footer from './components/Footer';
 import BackToTopButton from './components/BackToTopButton'; // Import the BackToTopButton component
 import NewsPart from './components/NewsPart';
+import Business from './components/Business';
+import Clients from './components/Clients';
+import Services from './components/Services';
 
 function App() {
   return (
@@ -19,7 +21,9 @@ function App() {
       <Page3 />
       <Page4 />
       <Crousal2 />
-      <Page5 />
+      <Business/>
+      <Services/>
+      {/* <Clients/> */}
       <NewsPart/>
       <Footer />
       <BackToTopButton /> {/* Render the BackToTopButton component */}
