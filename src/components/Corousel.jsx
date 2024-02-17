@@ -40,7 +40,7 @@ const Corousal = () => {
         <h3 className='text-[20px] text-center'>WELCOME TO 24 CARROTS</h3>
         <h1 className='text-[75px] text-center font-serif text-green-900'>Remarkable Catering & Events</h1>
         <p className='text-[15px] font-futura-pt font-thin text-center font-mono'>24 Carrots is the premier catering and events company of choice in Southern California. We create remarkable experiences by offering the finest quality foods and providing unsurpassed personalized service, driven by our passion for life’s special occasions.</p>
-        <button className='bg-orange-700 justify-center text-white text-sm font-semibold rounded-full px-4 py-1 mt-5 hover:bg-orange-800 transition-colors duration-300'>GET IN TOUCH  <FontAwesomeIcon icon={faArrowRight} /> </button>
+        <button className='font-sans w-1/2 border text-[#C15627] border-[#C15627] text-center uppercase px-3 py-2 hover:border-[#b8562c] rounded-3xl'>GET IN TOUCH  <FontAwesomeIcon icon={faArrowRight} /> </button>
       </div>
 
       <div className='flex justify-center max-w-[55vw] items-center'>

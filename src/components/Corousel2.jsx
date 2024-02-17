@@ -6,7 +6,6 @@ import img4 from "../assets/4.jpg"
 import img5 from "../assets/5.jpg"
 import img6 from "../assets/6.jpg"
 import img7 from "../assets/7.jpg"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {Splide, SplideSlide} from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 

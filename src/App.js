@@ -8,6 +8,7 @@ import Crousal2 from './components/Corousel2';
 import Page5 from './components/Page5';
 import Footer from './components/Footer';
 import BackToTopButton from './components/BackToTopButton'; // Import the BackToTopButton component
+import NewsPart from './components/NewsPart';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Page4 />
       <Crousal2 />
       <Page5 />
+      <NewsPart/>
       <Footer />
       <BackToTopButton /> {/* Render the BackToTopButton component */}
     </div>

@@ -1,23 +1,26 @@
-import React from 'react';
-import img from "../assets/unforegetable-banner.png";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import React from 'react'
 
-const Page4 = () => {
+function Page4() {
   return (
-    <div className='h-[170vh]'>
-      <img src={img} className='w-100' alt="Unforgettable Banner" />
-      <div className='flex flex-col justify-center items-center'>
-        <h1 className='text-[75px] text-center w-[40vw] mt-10 font-serif text-green-900'>Unforgettable Venues</h1>
-        <p className='text-[15px] font-[futura-pt] font-thin text-center w-[20vw] font-mono mt-5'>
-          24 Carrots is the exclusive or preferred caterer at Southern California’s most spectacular properties. From intimate understated spaces to large and luxurious, we’ll help you find the event venue that makes your heart skip a beat.
-        </p>
-        <button className='bg-orange-700 justify-center text-white text-sm font-semibold rounded-full px-4 py-1 mt-5 hover:bg-orange-800 transition-colors duration-300'>
-          EXPLORE VENUES <FontAwesomeIcon icon={faArrowRight} />
-        </button>
-      </div>
-    </div>
+    <>
+        <section className=' flex flex-col justify-center items-center'>
+            <div className=' flex flex-col justify-center items-center mt-24 relative overflow-hidden'>
+                <img
+                    className="circle-banner"
+                    src="https://24carrots.com/wp-content/uploads/2023/10/unforegetable-banner.png"
+                    alt="img"
+                />
+                <div className='half-circle font-bold bg-white w-[650px] h-[650px] rounded-full absolute -bottom-[475px]'></div>
+            </div>
+            <div className=' flex flex-col gap-10 justify-center items-center relative -top-10'>
+                <h3 className=' text-green-600 tracking-widest '>VENUES</h3>
+                <h2 className=' text-green-900 text-center font-bold text-[70px]'>Unforgettable<br/> Venues</h2>
+                <p className=' font-sans font-extralight text-center w-[600px] text-gray-600'>24 Carrots is the exclusive or preferred caterer at Southern California’s most spectacular properties. From intimate understated spaces to large and luxurious, we’ll help you find the event venue that makes your heart skip a beat.</p>
+                <button className='font-sans w-1/2 border text-[#C15627] border-[#C15627] text-center uppercase px-3 py-2 hover:border-[#b8562c] rounded-3xl'>explore venues <span className=''>→</span></button>
+            </div>
+        </section>
+    </>
   )
 }
 
-export default Page4;
+export default Page4

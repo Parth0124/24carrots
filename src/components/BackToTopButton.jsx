@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { IoIosArrowUp } from "react-icons/io";
 
 const BackToTopButton = () => {
   const [showButton, setShowButton] = useState(false);
@@ -26,10 +27,14 @@ const BackToTopButton = () => {
 
   return (
     <button
-      className={`fixed bottom-10 right-10 bg-green-500 text-white px-4 py-2 rounded-full transition-opacity duration-500 ${showButton ? 'opacity-100' : 'opacity-0'}`}
+      className={`fixed bottom-0 left-1/2 transform -translate-x-1/2 bg-custom-color text-white px-4 py-2 rounded-t-full rounded-b-lg transition-opacity duration-500 ${showButton ? 'opacity-100' : 'opacity-0'} hover:bg-hover-#E1F0DA`}
       onClick={scrollToTop}
+      style={{ backgroundColor: '#99BC85' }}
     >
-      Back to Top
+      <div className="flex items-center">
+        <IoIosArrowUp className="mr-1" />
+        <span className="text-black">Back to Top</span>
+      </div>
     </button>
   );
 };
