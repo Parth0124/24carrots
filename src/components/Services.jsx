@@ -6,22 +6,22 @@ const Services = () => {
     {
       title: "Gourmet Catering ",
       detail:
-        "Our professionally-trained culinary team is passionate and proud of our diverse and thoughtful menu, always cooking up something that aligns with your great taste.  ",
+        "Our professionally-trained culinary team is passionate and proud of our diverse and thoughtful menu, always cooking up something that aligns with your great taste.",
     },
     {
-      title: "Gourmet Catering ",
+      title: "Staffing ",
       detail:
-        "Our professionally-trained culinary team is passionate and proud of our diverse and thoughtful menu, always cooking up something that aligns with your great taste.  ",
+        "The hand-selected team at 24 Carrots are just as important to our reputation as our gourmet food. Our staff is certainly the best at what they do, and you’ll work with professionals who genuinely care about the success of your event! ",
     },
     {
-      title: "Gourmet Catering ",
+      title: "Bar Services ",
       detail:
-        "Our professionally-trained culinary team is passionate and proud of our diverse and thoughtful menu, always cooking up something that aligns with your great taste.  ",
+        "Our sophisticated flavor expertise enables us to create inventive concoctions that generate buzz in more ways than one",
     },
     {
-      title: "Gourmet Catering ",
+      title: "Event Production ",
       detail:
-        "Our professionally-trained culinary team is passionate and proud of our diverse and thoughtful menu, always cooking up something that aligns with your great taste.  ",
+        "If mind-blowing spectacles and immersive guest experiences are what you’re after, the specialists at 24 Carrots can pull it off on an epic scale!",
     },
   ];
   return (

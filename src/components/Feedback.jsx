@@ -1,6 +1,5 @@
 import { ArrowRightIcon } from "@radix-ui/react-icons";
 import React, { useState } from "react";
-
 const slideStyles = {
   backgroundSize: "cover",
   backgroundPosition: "center",
@@ -24,6 +23,7 @@ const leftArrowStyles = {
   left: "32px",
   fontSize: "45px",
   color: "black",
+
   zIndex: 1,
   cursor: "pointer",
 };
@@ -33,6 +33,11 @@ const sliderStyles = {
   height: "100%",
 };
 
+const dotsContainerStyles = {
+  display: "flex",
+  justifyContent: "center",
+};
+
 const dotStyle = {
   margin: "0 3px",
   cursor: "pointer",
@@ -40,11 +45,6 @@ const dotStyle = {
 };
 
 const Feedback = () => {
-  const dotsContainerStyles = {
-    display: "flex",
-    justifyContent: "center",
-  };
-
   const slides = [
     {
       url: "https://24carrots.com/wp-content/uploads/2023/10/4.2-Lorely-Meza.jpg",
@@ -91,6 +91,7 @@ const Feedback = () => {
     const newIndex = isLastSlide ? currentIndex : currentIndex + 1;
     setCurrentIndex(newIndex);
   };
+  
 
   return (
     <div className="h-[100vh] w-full flex gap-10 mt-0 transition-all duration-500">

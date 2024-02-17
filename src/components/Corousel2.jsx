@@ -9,12 +9,12 @@ import img7 from "../assets/7.jpg";
 import img8 from '../assets/8.jpg';
 
 const data = [
-  { id: 6, image: img6 },
+  { id: 8, image: img8 },
   { id: 5, image: img5 },
   { id: 3, image: img3 },
   { id: 4, image: img4 },
   { id: 5, image: img5 },
-  { id: 8, image: img8 },
+  { id: 6, image: img6 },
   { id: 7, image: img7 }
 ];
 
