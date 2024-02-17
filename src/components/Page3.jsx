@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
-import img16 from '../assets/16.jpg';
+import img16 from '../assets/16.jpeg';
 import img11 from '../assets/11.jpg';
 import img17 from '../assets/17.jpg';
 import img18 from '../assets/18.jpg';
