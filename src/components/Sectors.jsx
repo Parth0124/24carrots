@@ -56,11 +56,11 @@ const Page3 = () => {
               ))}
             </div>
             <div>
-              <div className='mt-4'>{categoryData[selectedCategory].text}</div>
+              <div className='mt-4 font-sans font-extralight text-center w-[600px] text-gray-600'>{categoryData[selectedCategory].text}</div>
             </div>
           </div>
 
-          <button className='font-sans w-1/2 border text-[#C15627] border-[#C15627] text-center uppercase px-3 py-2 hover:border-[#b8562c] rounded-3xl'>LEARN MORE <FontAwesomeIcon icon={faArrowRight} /></button>
+          <button className='font-sans w-1/2 border text-[#C15627] border-[#C15627] text-center uppercase px-3 py-2 hover:border-[#b8562c] rounded-3xl mt-5'>LEARN MORE <FontAwesomeIcon icon={faArrowRight} /></button>
         </div>
 
       </div>
