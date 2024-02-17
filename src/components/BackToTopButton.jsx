@@ -15,7 +15,6 @@ const BackToTopButton = () => {
 
     window.addEventListener('scroll', handleScroll);
 
-    // Cleanup the event listener
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };

@@ -35,7 +35,7 @@ const Corousal = () => {
   };
 
   return (
-    <div className='h-[100vh] flex justify-between items-end mt-20'> {/* Added 'items-end' to align items to the bottom */}
+    <div className='h-[100vh] flex justify-between items-end mt-20'> 
       <div className='flex flex-col justify-center items-center max-w-[45vw] px-20' >
         <h3 className='text-[20px] text-center'>WELCOME TO 24 CARROTS</h3>
         <h1 className='text-[75px] text-center font-serif text-green-900'>Remarkable Catering & Events</h1>

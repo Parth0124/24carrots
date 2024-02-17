@@ -58,7 +58,6 @@ const Services = () => {
           )}
         </div>
         <div className="w-fit ">
-          {/* img */}
           <img
             src="https://24carrots.com/wp-content/uploads/2023/10/Home_Services_GIF_R3.gif"
             alt=""
