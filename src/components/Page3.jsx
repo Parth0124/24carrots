@@ -60,7 +60,7 @@ const Page3 = () => {
             </div>
           </div>
 
-          <button className='mt-10 bg-orange-700 text-white text-sm font-semibold rounded-full px-4 py-1'>LEARN MORE <FontAwesomeIcon icon={faArrowRight} /></button>
+          <button className='bg-orange-700 justify-center text-white text-sm font-semibold rounded-full px-4 py-1 mt-5 hover:bg-orange-800 transition-colors duration-300'>LEARN MORE <FontAwesomeIcon icon={faArrowRight} /></button>
         </div>
 
       </div>
